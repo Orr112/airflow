@@ -14,6 +14,10 @@
 ## Motivation:
 
 ## Files:
+Udac_example_dag.py - This is an Airflow file which contains the setup for the dag and tasks along with task worflow.
+stage_redshift.py - This file is used to create a class and methods for accessing files from S3 and staging onto a Redshift table.
+
+
 
 ## Technologies:
 
