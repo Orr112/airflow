@@ -38,7 +38,11 @@ data_quality.p.y - Simple data check file, which checks counts and ensures that 
 - Redshift
 
 ## Install:
+```bash
+Step 1: 
+pip install apache-airflow
 
+```
 
 
 
