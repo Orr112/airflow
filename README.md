@@ -20,7 +20,7 @@ Image provide by Marc Lamberti via blog (URL is referrenced below in Acknowledgm
 
 
 ## Motivation:
-This project is a practice on utilizing Airflow to orchestrate a data pipeline.  S3 is used to stage data in files, the data in those files is then used to create a dimensional model in Redshift, the data from the S3 is then loaded into the fact and dimensions tables in Redshift, and then a simply data check is performed to ensure that the tables have loaded tables. 
+This project is a practice on utilizing Airflow to orchestrate a data pipeline.  S3 is used to stage data in files, the data in those files is then used to create a dimensional model in Redshift, the data from the S3 is then loaded into the fact and dimensions tables in Redshift, and then a simply data check is performed to ensure that the tables have loaded tables.
 
 
 ## Files:
@@ -32,9 +32,14 @@ sql-queries.py - This file contains the queries that are used by the methods in 
 data_quality.p.y - Simple data check file, which checks counts and ensures that tables are not empty.
 
 ## Technologies:
-
+- Python 3.6
+- Airflow 
+- S3
+- Redshift
 
 ## Install:
+
+
 
 
 ### Resources:
