@@ -20,6 +20,8 @@ Image provide by Marc Lamberti via blog (URL is referrenced below in Acknowledgm
 
 
 ## Motivation:
+This project is a practice on utilizing Airflow to orchestrate a data pipeline.  S3 is used to stage data in files, the data in those files is then used to create a dimensional model in Redshift, the data from the S3 is then loaded into the fact and dimensions tables in Redshift, and then . 
+
 
 ## Files:
 Udac_example_dag.py - This is an Airflow file which contains the setup for the dag and tasks along with task worflow.
