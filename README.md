@@ -47,3 +47,5 @@ pip install apache-airflow
 
 
 ### Resources:
+- Imagie provided by Marc Lamberti
+- additional details about Airflow can be found at airflow.apache.org
