@@ -10,7 +10,7 @@
 
 
 ## Intro:
-Airflow is an open-source platform used to create, schedule, and monitor workflows.  Users can define a collection of tasks and organize them so that relationships and dependencies are accounted for programmatically.  These collections of tasks are referred to as a DAG (Directed Acyclic Graph), which is simply a graph with nodes that contains directed edges and does not contiain any cycles.  Here is a simple machine learning dag example:
+Airflow i an open-source platform used to create, schedule, and monitor workflows.  Users can define a collection of tasks and organize them so that relationships and dependencies are accounted for programmatically.  These collections of tasks are referred to as a DAG (Directed Acyclic Graph), which is simply a graph with nodes that contains directed edges and does not contiain any cycles.  Here is a simple machine learning dag example:
 
 ![alt text](https://marclamberti.com/wp-content/uploads/Screenshot-2021-03-02-at-22.43.28.png)
 
